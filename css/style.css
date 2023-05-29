@@ -19,7 +19,6 @@ body {
 
 .border-div {
     border: 1.2px dashed black;
-    border-radius: 5px;
 }
 
 .padding-div-t-b {
@@ -61,9 +60,6 @@ nav {
     text-align: right;
 }
 
-.nav-border {
-    border: 1.2px dashed black;
-}
 /* end NAV */
 
 /* start HEADER */
@@ -73,7 +69,9 @@ header {
 
 .header-section {
     background-color: #ee82ee;
-    min-height: 200px;
+    min-height: 300px;
+    border: 1.2px dashed black;
+    border-radius: 5px;
 }
 
 .header-centered {
@@ -83,3 +81,38 @@ header {
 
 /* end HEADER */
 
+/* start MAIN */
+
+.section-flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.div-blue {
+    background-color: #1e90ff;
+    min-height: 350px;
+    flex-grow: 2;
+}
+
+.div-pink {
+    background-color: #ffc0cb;
+    min-height: 350px;
+    flex-grow: 1;
+}
+
+.div-green {
+    background-color: #228b22;
+    min-height: 650px;
+}
+
+.background-white {
+    background-color: #ffffff;
+}
+
+.background-grey {
+    background-color: #d3d3d3;
+}
+
+/* end MAIN */
