@@ -157,4 +157,8 @@ header {
     flex-direction: row;
     align-items: center;
 }
+
+.div-lightpink p, .div-lightblue p {
+    padding: 0px 8px 0px 8px;
+}
 /* end FOOTER */
