@@ -13,6 +13,19 @@ body {
     margin: 0 auto;
 }
 
+.margin-b-t {
+    margin: 10px 0 10px 0;
+}
+
+.border-div {
+    border: 1.2px dashed black;
+    border-radius: 5px;
+}
+
+.padding-div-t-b {
+    padding: 30px 0 30px 0;
+}
+
 /* start NAV */
 nav {
     background-color: #add8e6;
@@ -39,10 +52,6 @@ nav {
     flex-grow: 2;
 }
 
-.margin-b-t {
-    margin: 10px 0 10px 0;
-}
-
 .nav-section div:first-child, .nav-section div:last-child {
     min-width: 200px;
     padding: 0px 8px 0px 8px;
@@ -56,3 +65,21 @@ nav {
     border: 1.2px dashed black;
 }
 /* end NAV */
+
+/* start HEADER */
+header {
+    background-color: #00008b;
+}
+
+.header-section {
+    background-color: #ee82ee;
+    min-height: 200px;
+}
+
+.header-centered {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* end HEADER */
+
