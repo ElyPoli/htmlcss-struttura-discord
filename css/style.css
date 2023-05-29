@@ -23,7 +23,7 @@ body {
 }
 
 .border-div {
-    border: 1.2px dashed black;
+    border: 2px dashed black;
 }
 
 .padding-div-t-b {
@@ -74,7 +74,7 @@ header {
 .header-section {
     background-color: #ee82ee;
     min-height: 300px;
-    border: 1.2px dashed black;
+    border: 2px dashed black;
     border-radius: 5px;
 }
 
@@ -110,11 +110,15 @@ header {
 
 /* start FOOTER */
 .footer-padding {
-    padding: 5px 0 20px 0;
+    padding: 8px 0 20px 0;
+}
+
+.footer-padding-t {
+    padding-top: 8px;
 }
 
 .footer-border {
-    border-bottom: 1.2px solid #525557;
+    border-bottom: 2px solid #525557;
 }
 
 .div-coral {
@@ -126,22 +130,31 @@ header {
 .div-lightgreen {
     background-color: #20b2aa;
     min-height: 400px;
-    border: 1.2px dashed #ffffff;
+    border: 2px dashed #ffffff;
     flex-grow: 2;
 }
 
 .footer-div-grow {
     flex-grow: 2;
-
 }
 
 .div-lightblue {
     background-color: #7fffd4;
+    min-height: 80px;
 }
 
 .background-black {
     background-color: #23272a;
 }
 
+.div-lightpink {
+    background-color: #ffb6c0;
+}
 
+.footer-align {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
 /* end FOOTER */
