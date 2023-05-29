@@ -105,6 +105,7 @@ header {
 .div-green {
     background-color: #228b22;
     min-height: 650px;
+    width: 100%;
 }
 
 .background-grey {
