@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* start NAV */
+nav {
+    background-color: #add8e6;
+    padding: 10px 0 10px 0;
+}
+
+.nav-section {
+    background-color: #daa520;
+    display: flex;
+    align-items: center;
+}
+
+.nav-section ul {
+    list-style: none;
+    text-align: center;    
+}
+
+.nav-section li {
+    padding: 0px 5px 0px 5px;
+    display: inline-block;
+}
+
+.nav-link {
+    flex-grow: 2;
+}
+
+.margin-b-t {
+    margin: 10px 0 10px 0;
+}
+
+.nav-section div:first-child, .nav-section div:last-child {
+    min-width: 200px;
+    padding: 0px 8px 0px 8px;
+}
+
+.nav-section div:last-child p {
+    text-align: right;
+}
+
+.nav-border {
+    border: 1.2px dashed black;
+}
+/* end NAV */
